@@ -103,6 +103,9 @@
         orange\or%
         green\or%
         purple\or%
+        yellow\or%
+        cyan\or%
+        magenta\or%
         brown\else%
         headercolor\fi%
     } #1#2#3%

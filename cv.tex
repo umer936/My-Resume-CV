@@ -17,11 +17,16 @@
 
 \documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 \usepackage[super]{nth} 
+\usepackage{lastpage}
+\usepackage{fancyhdr}
 \long\def\/*#1*/{} 
+\pagestyle{fancy}
+\fancyhf{} % to clear existing header/footer if you don't want it
+\renewcommand\headrulewidth{0pt}
 
 \begin{document}
-
-\header{umer}{salman}{\noindent\rule{4cm}{0.4pt}} % Your name and current job title/field
+\header{umer}{salman}{\noindent\rule{10cm}{0.4pt}} % Your name and current job title/field
+\rfoot{\thepage\ of \pageref{LastPage}}
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
@@ -44,10 +49,29 @@ USA
 \section{programming}
 CSS3 \& HTML5 
 PHP ({\color{red} $\varheartsuit$} Laravel) 
+MySQL 
 JavaScript, CoffeeScript  
+jQuery 
 Java, C++ 
+\LaTeX \ (this r\'esum\'e)
 Ruby, Python 
+TIBASIC 
+Git, SVN, Mercurial 
 ~
+\section{operating systems}
+Linux 
+Android 
+OS X 
+iOS 
+Windows 
+BSD 
+~ 
+\section{software skills}
+Basic SolidWorks 
+CyberLink PowerDirector 
+Eclipse 
+Android Studio 
+Paint.NET 
 \end{aside}
 
 %----------------------------------------------------------------------------------------
@@ -121,16 +145,61 @@ Detailed achievements:
 
 */ 
 
-\subsection{work}
+% \subsection{work}
 
 \begin{entrylist}
+
+\entry
+{2012-Now}
+{Ingress (Niantic, Inc.)}
+{San Antonio, Texas \\ Albuquerque, New Mexico \\ Jackson, Mississippi}
+{\emph{Regional Moderator}
+Ingress is a game made by Google where the entire world is the playing field shared by 2 teams. Thus, coordination on a global scale must occur. 
+	\begin{itemize}
+	\item Created and manage the South Texas roster website 
+	\begin{itemize}
+		\item http://satxresist.com 
+	\end{itemize}
+	\item Improved the usability of Google's web app by JavaScript bookmarklets for thousands of users 
+	\item Manage cross-team affairs to ensure safe play for all. 
+	\item Oversee operations that span multiple continents. 
+	\item Directly communicate with hundreds of others to facilitate operations. 
+	\end{itemize}
+	}
+
+
+\entry
+{2011-Now}
+{Socialcu.be}
+{Internet}
+{\emph{Developer, Administrator, and Moderator} \\
+Developed a social networking platform that is home to thousands of users.}
+
+%------------------------------------------------
 
 \entry
 {2015}
 {Parlevel Systems}
 {San Antonio, Texas}
-{\emph{Summer Intern} \\
-Assisted in the development of analytical software for vending machine operators in North America. Also developed the company\'s foray into micromarkets. Created web tools to allow the company itself to run more efficiently.}
+{\emph{Summer Intern} 
+	\begin{itemize}
+	\item Worked on the development of analytical software for vending machine operators in North America. 
+	\item Developed the company's foray into micromarkets. 
+	\begin{itemize}
+		\item Generates roughly \$50/day per location 
+	\end{itemize}
+	\item Created web tools to allow the company itself to run more efficiently.
+	\end{itemize}
+	}
+
+%------------------------------------------------
+
+\entry
+{2014}
+{Tots N Teens Pediatric Urgent Care}
+{San Antonio, Texas}
+{\emph{Logo Creator and Website Manager} \\
+	Created the logo for a local urgent care clinic.}
 
 %------------------------------------------------
 
@@ -139,10 +208,10 @@ Assisted in the development of analytical software for vending machine operators
 {Umer936}
 {San Antonio, Texas}
 {\emph{Website Builder} \\
-Built professional websites for buisnesses and clients by employing my knowledge of web development.}
+	Built professional websites for businesses and clients by employing my knowledge of web development.}
 
 %------------------------------------------------
-
+	
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -172,10 +241,85 @@ Built professional websites for buisnesses and clients by employing my knowledge
 %------------------------------------------------
 
 \entry
+{2014-Now}
+{National Honors Society}
+{TMI - The Episcopal School of Texas}
+{Honors students who display excellence in scholarship, leadership, service, and character.}
+
+%------------------------------------------------
+
+\entry
 {2013}
 {Erasmus Award}
 {Saint Andrews Episcopal School}
 {Awarded to the student that is most driven and most excited about learning.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{projects}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2012-Now}
+{Android}
+{San Antonio, Texas}
+{Contributed to Android in many ways 
+\begin{itemize}
+	\item Software
+	\begin{itemize} 
+		\item Created ROMs for the HTC One X and OnePlus One (adb/fastboot)  
+		\item Built an app to allow phone/tablet to function as a \nth{2} monitor for a computer
+		\item Made scripts for a phone to function as a smartwatch (WiFi, Bluetooth)
+		\item Named a Snapchat filter 
+	\end{itemize} 
+	\item Hardware 
+	\begin{itemize}
+		\item Built an IR blaster 
+		\item Created a wireless charger for HTC One X 
+	\end{itemize}
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\entry
+{2013}
+{Simple Source Viewer}
+{San Antonio, Texas}
+{Simple, easy to use app for Windows 8, RT, 8.1, and 10 to allow viewing of the source code of a webpage.}
+
+%------------------------------------------------
+
+\entry
+{2013}
+{Chromecast}
+{San Antonio, Texas}
+{Discovered additional tools to expand the potential of the \$35 device. Findings were published on ReadWriteWeb, XDA Developers, and other tech sites.}
+
+%------------------------------------------------
+
+\entry
+{2013}
+{CygwinHere}
+{San Antonio, Texas}
+{Cygwin is a Windows CMD mod to bridge CMD and a Linux Terminal. My CygwinHere registry tweak ports over the "Open in Terminal" function.}
+
+%------------------------------------------------
+
+\entry
+{2012-2014}
+{ExtempEngine}
+{San Antonio, Texas}
+{ExtempEngine was a Chrome App to automatically download and sort articles from news sources around the world. This allowed easy access to those sources during an extemporaneous debate round without having an internet connection.}
 
 %------------------------------------------------
 
@@ -195,7 +339,7 @@ Built professional websites for buisnesses and clients by employing my knowledge
 {2015}
 {FIRST Robotics Competition}
 {Brandeis High School}
-{\color{red}Type about FRC}
+{\color{red}Type about FRC \\ This needs a bullet \\ point \\ list \\ (svn, gcc)}
 
 %------------------------------------------------
 
@@ -203,7 +347,7 @@ Built professional websites for buisnesses and clients by employing my knowledge
 {2015}
 {FIRST Tech Challenge}
 {TMI - The Episcopal School of Texas}
-{\color{red}Type about FTC}
+{\color{red}Type about FTC \\ This might need \\ one \\ too \\ so I can push \\ the next section \\ off the page}
 
 %------------------------------------------------
 
@@ -248,11 +392,12 @@ Built professional websites for buisnesses and clients by employing my knowledge
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
-\/*
-\section{other interests}
+
+\section{other skills and interests}
 
 \textbf{professional:} coding, programming, creating, web design, web app creation, software design, building, wiring, computer software, tech 
 \\ 
-\textbf{personal:} math, gaming, computer hardware  
-*/
+\textbf{personal:} puzzles, math, gaming (League of Legends), listening to others (7cupsoftea.com), computer hardware, reading (science and mistery books)   \\ 
+\textbf{languages:} conversant in Urdu, Spanish semi-fluency, can read Arabic and Greek
+
 \end{document}
