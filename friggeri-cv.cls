@@ -31,8 +31,11 @@
   \colorlet{green}{gray}
   \colorlet{orange}{gray}
   \colorlet{purple}{gray}
+  \colorlet{yellow}{gray}
   \colorlet{brown}{gray}
   \colorlet{red}{gray}
+  \colorlet{magenta}{gray}
+  \colorlet{cyan}{gray}
   \colorlet{blue}{gray}
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
