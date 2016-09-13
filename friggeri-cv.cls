@@ -325,10 +325,10 @@
 \RequirePackage[left=5.5cm,top=1.75cm,right=1.25cm,bottom=2cm,nohead,nofoot]{geometry}%page margins
 \RequirePackage{hyperref}
 \hypersetup{
-    colorlinks=false,       
-    linkcolor=red,          
-    citecolor=red,        
-    filecolor=red,      
+    colorlinks=false,
+    linkcolor=red,
+    citecolor=red,
+    filecolor=red,
     urlcolor = red}
     
 % A fix for \href{}{} colors not working with fontspec
