@@ -1,5 +1,5 @@
-UMER SALMAN 
-umer936@gmail.com 
+UMER SALMAN
+umer936@gmail.com
 umer936@utexas.edu
 
 http://umer936.com
@@ -11,25 +11,26 @@ EDUCATION
 2013      Certification of Graduate-Level Course                              Royal Holloway University of London
   Graduated an online course titled ”Malicious Software and its Underground Economy: Two Sides to Every Story.” Learned about traditional and mobile security threats and the ecosystem that drives that illegal, yet profitable, business
 
-EXTRACURRICULARS 
-2016–Now  American Helicopter Society (AHS)                                   University of Texas at Austin
-  Compete in the International Aerial Robotics Competition with our fully autonomous hexcopter with computer vision guidance system
-2016–Now  IEEE-Communications Society (IEEE ComSoc)                           University of Texas at Austin
+EXTRACURRICULARS
+2017–Now Texas Aerial Robotics (TAR)                                          University of Texas at Austin
+  Founded a club to compete in the International Aerial Robotics Competition with our fully autonomous quadcopter. Uses computer vision and multiple sensors to target and interact with moving ground robots. Placed 4th in our first run
+
+2016–Now IEEE-Communications Society (IEEE ComSoc)                            University of Texas at Austin
   Spread awareness about and prevention of software and hardware vulnerabilities
+
 2015–2016 TMI Maker Club                                                      TMI - The Episcopal School of Texas
   Founded and manage a club where students can come together to make things or learn to make things, whether they be portable phone chargers, wood frames, or soldiering skills
+
 2015–2016 CyberPatriot                                                        TMI - The Episcopal School of Texas
-  Ranked Platinum, the highest tier, in a National cybersecurity competition funded by Northrop Grumman Corp. and Air Force Association
+  Ranked Platinum, the highest tier, in a National cybersecurity competition funded by Northrop Grumman Corp.
+
 2014–2016 FIRST Robotics Competition                                          Brandeis High School
   Build 120 lbs robots to compete against more than 3,000 teams from 19 countries. Team Captain of 3481 BroncBotz, 1 of 91 BETA teams chosen for robust design, programming skills, and performance on the field. Won awards including Motorola Quality Award (x3), GM Industrial Design Award, and Delphi Excellence in Engineering Award
+
 2013–2016 FIRST Tech Challenge                                                TMI - The Episcopal School of Texas
   Build robots to compete against over 5,000 other teams from various countries. Team Captain of 6221 Panther Bots Alpha, ranked in the top 3% of teams worldwide. Have appeared on CBS, been recognized by city council, and awarded certificate of congratulations by mayor
-awards
-2014–2016 National Honors Society                                             TMI - The Episcopal School of Texas
-2015      AP Scholar with Distinction                                         TMI - The Episcopal School of Texas
-2015      National Merit Commended                                            TMI - The Episcopal School of Texas
 
-volunteering
+VOLUNTEERING
 2015–2016 TeamUp! Challenge                                                   San Antonio, Texas
   Plan and teach a science curriculum about the earth, biodiversity, and energy for local elementary schools through the San Antonio Spurs’ ”Silver and Black Give Back” program
 2014–2016 HACKERS, Inc.                                                       San Antonio, Texas
@@ -37,57 +38,80 @@ volunteering
 2013      National Museum of Nuclear Science                                  Albuquerque, New Mexico
   Hosted ”Dynamics of Flight” exhibit and taught visitors about the history and science of everything nuclear
 
-experience
+AWARDS
+2014–2016 National Honors Society                                             TMI - The Episcopal School of Texas
+2015      AP Scholar with Distinction                                         TMI - The Episcopal School of Texas
+2015      National Merit Commended                                            TMI - The Episcopal School of Texas
+
+EXPERIENCE
 2012-Now  Ingress (Niantic, Inc.)
   Regional Moderator
     Ingress is a game made by Google where the entire world is the playing field shared by 2 teams
     • Created and manage the South Texas roster website and database [http://satxresist.com]
     • Improved the usability of Google’s web app by JavaScript bookmarklets for thousands of users
     • Manage cross-team affairs and global operations
-2015      Parlevel Systems                                                     San Antonio, Texas
-  Summer Intern
-    • Worked on the development of analytical software for vending machine operators
-    • Developed the company’s foray into micromarkets; now in use at Rackspace/Geekdom
 
-projects
-2012-Now  Android                                                              San Antonio, Texas
+2017      General Dynamics Mission Systems                                    San Antonio, Texas
+  Cybersecurity Intern
+  • Worked on PitBull and TNE development and management tools
+    – PitBull is a Multilevel Security (MLS) Linux Operating System based on Red Hat Enterprise Linux
+    – Trusted Network Environment (TNE) is built on top of PitBull and shipped to U.S. Department of Defense and Federal Agencies for handling operations and information at any security level
+  • Created PitBull Health Console/LogViewer
+    – Reduces time to diagnose system problems
+    – Analyze multiple machines in one session
+  • Developed PitBull/TNE testing tools
+    – Tests through operating system tasks to ensure successful integration
+    – Can run headless or be configured to run specific tests
+
+2015      Parlevel Systems                                                    San Antonio, Texas
+  Summer Intern
+  • Worked on the development of analytical software for vending machine operators
+  • Developed the company’s foray into micromarkets; now in use at Rackspace/Geekdom
+
+PROJECTS
+2012-Now  Android                                                             San Antonio, Texas
   Created ROMs and wireless chargers for the HTC One X and OnePlus One (adb/fastboot)
-2016–Now  Password Requirements                                                Austin, Texas
-  Currently writing a Chrome extension for crowdsourcing password requirement information
-2016      Waterslide                                                           Boerne, Texas
+
+2017      Smash Bros LaunchPad                                                Austin, Texas
+  Developed in C and Assembly, this adaptation of Smash Bros runs on a TI LaunchPad. Wrote LCD drivers, audio output control, joystick and button inputs. Wired inputs, display, audio jack, and vibration motor to board
+
+2016      Waterslide                                                          Boerne, Texas
   Right after graduation, my friends and I built a 12’ tall waterslide in 2 days
-2015–2016 Car Diagnostics Logger                                               San Antonio, Texas
+
+2015–2016 Car Diagnostics Logger                                              San Antonio, Texas
   Raspberry Pi in my glove compartment for logging my car’s stats (intake temp, RPM, MPG, etc) every 1/4 second
-2013      Simple Source Viewer                                                 San Antonio, Texas
-  Simple, easy to use app for Windows 8, RT, 8.1, and 10 to view the source code of a webpage
-2013      Chromecast                                                           San Antonio, Texas
+
+2013      Chromecast
   Discovered tools that were published on ReadWriteWeb and XDA Developers
-2013      CygwinHere                                                           San Antonio, Texas
+
+2013      CygwinHere                                                          San Antonio, Texas
   Cygwin is a Windows mod to bridge CMD and Linux CLI. My registry tweak ports the ”Open in Terminal” function to Cygwin
 
-programming
+
+PROGRAMMING
   CSS3 & HTML5
   PHP (♥ Laravel)
   MySQL
   JavaScript, CoffeeScript
   jQuery
-  Java, C++
+  Java, C, C++
   LATEX (this résumé)
-  Ruby, Python
+  Python
   TIBASIC
+  Assembly
   MATLAB
   LabVIEW
   Git, SVN, Mercurial
 
-operating systems
+OPERATING SYSTEMS
   Linux
   Android
   OS X
   iOS
   Windows
 
-software skills
-  SolidWorks
+SOFTWARE SKILLS
+  Basic SolidWorks
   CyberLink PowerDirector
   Eclipse
   TableAU
