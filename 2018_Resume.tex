@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Umer936 Resume
+% XeLaTeX
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/
+%
+% CV of:
+% Umer Salman (umer936@gmail.com)
+% https://github.com/umer936/My-CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors for printing
+\usepackage[super]{nth}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{units}
+\long\def\/*#1*/{}
+\pagestyle{fancy}
+\fancyhf{} % to clear existing header/footer if you don't want it
+\renewcommand\headrulewidth{0pt}
+
+\begin{document}
+\header{umer}{salman}{\noindent\rule{10cm}{0.4pt}} % Your name and current job title/field
+% \rfoot{\thepage\ of \pageref{LastPage}}
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+	\section{contact}
+	24 Galleria Drive
+	San Antonio, TX 78257
+	USA
+	~
+	(936) 463 8626
+	~
+	\href{mailto:umer936@gmail.com}{umer936@gmail.com}
+	\href{mailto:umer936@utexas.edu}{umer936@utexas.edu}
+	\href{http://umer936.com}{umer936.com}
+	~
+	\href{http://github.com/umer936}{github.com/umer936}
+	\href{http://facebook.com/Umer936}{fb://Umer936}
+	\href{http://google.com/+umersalman}{google/+umersalman}
+	~
+	\section{programming}
+	CSS3 \& HTML5
+	PHP ({\color{red} $\varheartsuit$} Laravel)
+	MySQL
+	JavaScript, CoffeeScript
+	jQuery
+	Java, C, C++
+	\LaTeX \ (this r\'esum\'e)
+	Python
+	TIBASIC
+	Assembly
+	MATLAB
+	LabVIEW
+	Git, SVN, Mercurial
+	~
+	\section{operating systems}
+	Linux
+	Android
+	OS X
+	iOS
+	Windows
+	~
+	\section{software skills}
+	SolidWorks
+	Burp Suite
+	Eclipse
+	OpenCV
+	Android Studio
+	ADB/Fastboot
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+\vspace{-7pt}
+
+\begin{entrylist}
+
+	\entry
+	{2016--Now}
+	{Electrical and Computer Engineering - May 2020}
+	{University of Texas at Austin}
+	{
+		Technical Cores: Software Engineering \& Design and Academic Enrichment \\
+		Minor: Business
+	}
+
+\end{entrylist}
+
+\vspace{-11pt}
+\section{extracurriculars}
+\vspace{-7pt}
+
+\begin{entrylist}
+
+	\entry
+	{2017--Now}
+	{Texas Aerial Robotics (TAR)}
+	{University of Texas at Austin}
+	{
+	\emph{Founder and President}
+	\begin{itemize}
+			\item Lead a 30 person org. to compete in the International Aerial Robotics Competition
+			\item Build and program fully autonomous quadcopters
+			\item Use computer vision and sensors, such as LiDAR and optical flow, to target and interact with moving ground robots in a GPS denied environment
+			\item Research drone swarming and drone control through human voice and gestures
+		\end{itemize}
+	}
+
+	%------------------------------------------------
+
+	\entry
+	{2013--2016}
+	{FIRST Robotics Competition}
+	{Brandeis High School, TMI - The Episcopal School of Texas}
+	{
+	\emph{Team Captain, FRC3481 and FTC6221}
+	\begin{itemize}
+			\item Build 120 lbs robots to compete against 3,000+ teams
+			\item Won Motorola Quality Award (x3), GM Industrial Design Award, and Delphi Excellence in Engineering Award
+		\end{itemize}
+	}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{-11pt}
+\section{experience}
+\vspace{-7pt}
+
+\begin{entrylist}
+
+	\entry
+	{2018}
+	{Visa Inc.}
+	{Austin, Texas}
+	{\emph{Security Engineering Intern}
+		\begin{itemize}
+			\item Created automated penetration testing suite using Burp Suite and Python to increase security while decreasing time in security testing stage
+			\begin{itemize}
+				\item Tests Visa products \& APIs for security vulnerabilities such as XSS and Clickjacking
+				\item Learns from cybersecurity to eliminate false positives
+			\end{itemize}
+		\end{itemize}
+	}
+
+	%-----------------------------------------------
+
+	\entry
+	{2017}
+	{General Dynamics Mission Systems}
+	{San Antonio, Texas}
+	{\emph{Cybersecurity Intern}
+		\begin{itemize}
+			\item Worked on PitBull, a Multilevel Security (MLS) Linux OS based on RHEL, and Trusted Network Environment (TNE) testing tools using OpenCV and Python
+			\begin{itemize}
+				\item Used by U.S. Federal Agencies
+			\end{itemize}
+			\item Created PitBull Health Console for diagnosing system/network problems
+		\end{itemize}
+	}
+
+	%-----------------------------------------------
+
+	\entry
+	{2015}
+	{Parlevel Systems}
+	{San Antonio, Texas}
+	{\emph{Software Development Intern}
+		\begin{itemize}
+			\item Worked on the development of analytical software for vending machine operators
+			\item Developed the company's foray into micromarkets, which became a core product
+		\end{itemize}
+	}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{-11pt}
+\section{projects}
+\vspace{-7pt}
+
+\begin{entrylist}
+
+	\entry
+	{2012--Now}
+	{Ingress (Niantic, Inc.)}
+	{}
+	{\emph{Regional Moderator}
+		\begin{itemize}
+			\item Created and manage the South Texas roster website and database
+			\item Improved the usability of Google's web app by JavaScript bookmarklets for thousands of users
+		\end{itemize}
+	}
+
+	%------------------------------------------------
+
+	\entry
+	{2017}
+	{Smash Bros LaunchPad}
+	{Austin, Texas}
+	{
+		Developed in C and Assembly, adaptation of Smash Bros on a TI microcontroller \\
+		Wrote LCD drivers, joystick and button inputs, and audio and vibration outputs
+	}
+
+	%------------------------------------------------
+
+	\entry
+	{2015--2016}
+	{Car Diagnostics Logger}
+	{San Antonio, Texas}
+	{Raspberry Pi in my glove compartment to log my car's stats (intake temp, MPG) every \nicefrac{1}{4} sec.}
+
+\end{entrylist}
+
+\end{document}
