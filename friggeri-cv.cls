@@ -152,7 +152,7 @@
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{13cm}{%width of main info
+  #1&\parbox[t]{14cm}{%width of main info
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
@@ -172,7 +172,7 @@
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(1, 4)%width and positioning of sidebar
+  \begin{textblock}{3.2}(1, 4)%width and positioning of sidebar
   \begin{flushright}
   \obeycr
 }{%
@@ -186,7 +186,7 @@
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=5.5cm,top=1.75cm,right=1.25cm,bottom=1cm,nohead,nofoot]{geometry}%page margins
+\RequirePackage[left=4.7cm,top=1.75cm,right=1.25cm,bottom=1cm,nohead,nofoot]{geometry}%page margins
 \RequirePackage{hyperref}
 \hypersetup{
     colorlinks=false,

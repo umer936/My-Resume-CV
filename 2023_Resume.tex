@@ -19,10 +19,12 @@
 \usepackage[super]{nth}
 \usepackage{lastpage}
 \usepackage{fancyhdr}
+\usepackage{datetime}
 \usepackage{units}
 \long\def\/*#1*/{}
 \pagestyle{fancy}
 \fancyhf{} % to clear existing header/footer if you don't want it
+\rfoot{\monthname[\month] \the\year}
 \renewcommand\headrulewidth{0pt}
 
 \begin{document}
@@ -51,11 +53,11 @@
 	CSS \& HTML
 	{\color{red} $\varheartsuit$} PHP (Laravel, CakePHP)
 	MySQL
+	Bootstrap
 	JavaScript, jQuery
 	Java, C, C++
 	\LaTeX \ (this r\'esum\'e)
 	Python
-	TIBASIC
 	Assembly
 	MATLAB
 	LabVIEW
@@ -72,6 +74,7 @@
 	SolidWorks
 	Burp Suite
 	ROS2
+	Gazebo
 	OpenCV
 	Android Studio
 	ADB/Fastboot
@@ -91,79 +94,65 @@
 	{BS in Electrical and Computer Engineering - Fall 2020}
 	{The University of Texas at Austin}
 	{
-		Tech Cores: Software Engineering \& Design and Academic Enrichment \\ 
-		Minor: Business \\
-		\textbf{Embedded Systems Lab Keyboard:} \\ 
-			Created a USB 10-Keyless RGB Keyboard with Macro Recording using TM4C microcontroller \href{https://youtu.be/fSX6dDx9jvY}{https://youtu.be/fSX6dDx9jvY} \\
-		\textbf{Entrepreneurship Senior Design (CTO):} 
+		\emph{Tech Cores: Software Engineering/Design and Academic Enrichment + 
+		Minor: Business}
 		\begin{itemize}
-			\item Built a hardware/software platform to process physiological indicators in children
+			\item \textbf{Embedded Systems Lab:} Created a USB 10-Keyless RGB Keyboard with Macro Recording using TM4C microcontroller \href{https://youtu.be/fSX6dDx9jvY}{https://youtu.be/fSX6dDx9jvY}
+			\item \textbf{Entrepreneurship Senior Design (CTO):}
 			\begin{itemize}
-				\item Designed PCB with galvanic skin response sensor, heart rate sensor, and microphone for wearable
-				\item Built Azure/Tableau web platform for healthcare professionals to view
+				\item Built a wearable + software platform to process physiological indicators in children
+				\begin{itemize}
+					\item Designed PCB with galvanic skin response sensor, heart rate sensor
+					\item Built Azure/Tableau web platform for healthcare professionals to view data
+				\end{itemize}
+				\item Formed a business plan and presented to biomedical industry experts 
 			\end{itemize}
-			\item Formed a business plan and presented to biomedical industry experts 
 		\end{itemize}
 	}
 	
 \end{entrylist}
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
 
-\vspace{-15pt}
+\vspace{-5pt}
+\vspace{-5pt}
 \section{experience}
 \vspace{-10pt}
 
 \begin{entrylist}
 
-	\entry
-	{2021--Now}
-	{Southwest Research Institute}
-	{San Antonio, Texas}
-	{\emph{Computer Scientist}
-		% \begin{itemize}
-		% 	\item Developed a grammar assistance tool in JavaScript for Weekly Activity Reports
-		% 	\begin{itemize}
-		% 		\item Corrects ~6,000 writing mistakes to reduce the amount of time in editing process 
-		% 		\item Planned for use across NGA, such as in reports to Congress, etc 
-		% 	\end{itemize}
-		% 	\item Assisted in cyber-deception (honeypot ``network devices'') tool analysis
-		% \end{itemize}
-	}
+\entry
+{2021--Now}
+{Southwest Research Institute}
+{San Antonio, Texas}
+{\emph{Computer Scientist}
+	\begin{itemize}
+		\item Develop Science Operations and Data Analysis Systems in Space Science Division (Div 15)
+		\begin{itemize}
+			\item Develop modular full-stack interactive web apps for 50+ spacecraft and instruments including LAMP, Lucy, and Europa Clipper. Ensure swift deployment for new missions with smaller budgets and timelines, such as CubeSats, without compromising functionality
+			\item Engineer mission-critical support software for flyby planning, data processing \& visualization, access control management, and legacy/modern software (IDL, FORTRAN, C++, Python) integration. Creates personalized mission data dashboards, providing Health and Safety plots for engineers and science data for the scientists
+		\end{itemize}
+		\item Researched and developed containerization (Docker/Kubernetes) of space science systems through an Internal R\&D grant, developing intelligent batch processing on an on-prem HPC or AWS as needed
+		\begin{itemize}
+			\item Presented insights and implementations at CakeFest 2023 Conference  \href{https://www.youtube.com/live/4KB92R7UQc8?si=sA3sVMHHHfgKZKgp&t=19699}{Video}, \href{https://umer936.com/cakefest-2023}{Slides} and Data, Analysis, and Software in Heliophysics (DASH) Conference
+		\end{itemize}
+		\item Created React UIs for a EW radar mission in Defense and Intelligence Solutions Division (Div 16)
+	\end{itemize}
+}
+
 \vspace{-5pt}
 
 \entry
-{2020}
-{National Geospacial-Intelligence Agency (WFH)}
-{San Antonio, Texas}
+{2019, 2020}
+{National Geospacial-Intelligence Agency}
+{St. Louis, Missouri; San Antonio, Texas (WFH)}
 {\emph{Cybersecurity/Software Development Intern}
 	\begin{itemize}
-		\item Developed a grammar assistance tool in JavaScript for Weekly Activity Reports
-		\begin{itemize}
-			\item Corrects ~6,000 writing mistakes to reduce the amount of time in editing process 
-			\item Planned for use across NGA, such as in reports to Congress, etc 
-		\end{itemize}
+		\item Clearance: TS/SCI
+		\item Created automated rulesets and scripts for Detect and Incident Response teams
+		\item Developed a NodeJS grammar tool for TS/SCI environments to correct ~6,000 writing mistakes and improve editing efficiency across NGA's Weekly Activity Reports, reports to Congress, etc
 		\item Assisted in cyber-deception (honeypot ``network devices'') tool analysis
 	\end{itemize}
 }
-\vspace{-5pt}
-
-	%-----------------------------------------------
-	
-	\entry
-	{2019}
-	{National Geospacial-Intelligence Agency}
-	{St. Louis, Missouri}
-	{\emph{Cybersecurity Intern}
-		\begin{itemize}
-			\item Clearance: TS/SCI
-			\item Assisted Detect and Incident Response teams
-			\item Improved rulesets for Linux compromise detection
-			\item Built PowerShell scripts to improve threat detection and analysis
-		\end{itemize}
-	}
 \vspace{-5pt}
 	
 	%-----------------------------------------------
@@ -172,19 +161,17 @@
 	{2018}
 	{Visa Inc.}
 	{Austin, Texas}
-	{\emph{Security Engineering Intern}
-		\begin{itemize}
-			\item Created automated penetration testing suite using Burp Suite and Python to increase security while decreasing time in security testing stage
+	{\emph{Security Engineering Intern} \\
+			Created automated penetration testing suite using Burp Suite and Python to increase security while decreasing time in security testing stage
 			\begin{itemize}
 				\item Tool tests Visa products \& APIs for vulnerabilities such as XSS and Clickjacking
 				\item Learns from cybersecurity team to eliminate false positives
 			\end{itemize}
-		\end{itemize}
 	}
 
 \end{entrylist}
 
-\vspace{-15pt}
+\vspace{-5pt}
 \section{extracurriculars}
 \vspace{-10pt}
 
