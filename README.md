@@ -13,10 +13,8 @@ Generated PDFs:
 - `Resume.pdf` is just a convenience symlink; the canonical generated file lives in `output_pdfs/`.
 - Git LFS is not necessary for the current layout. This repo only keeps a small number of PDF artifacts, so regular Git is simpler and works fine.
 - If the repo ever grows to include many large binary revisions, then Git LFS would be worth reconsidering.
-- A GitHub Action now archives retired releases into `output_pdfs/old/<year>/` instead of compiling the resume.
-- The workflow uses `actions/checkout@v7` and runs only when you manually dispatch it with the year to archive.
+- All organization is handled locally. Use the helper script below when you want to archive a retired release into `output_pdfs/old/<year>/`.
 - I would **not** auto-move PDFs into `output_pdfs/old/` based on filename guessing alone. That kind of archival is better done explicitly when you publish a new annual version, because guessing can misfile things.
-- If you do want to archive an older release, use the helper script below so the folder structure stays consistent.
 
 ## Standardized archiving
 
