@@ -15,7 +15,19 @@ Generated PDFs:
 - If the repo ever grows to include many large binary revisions, then Git LFS would be worth reconsidering.
 - A GitHub Action now builds `2023_Resume.tex` on push and pull request so the resume stays compilable.
 - I would **not** auto-move PDFs into `output_pdfs/old/` based on year alone. That kind of archival is better done explicitly when you publish a new annual version, because year-based detection can misfile things.
-- If you do want to archive an older release, copy it into a specific folder such as `output_pdfs/old/2023/` on purpose rather than guessing from the filename.
+- If you do want to archive an older release, use the helper script below so the folder structure stays consistent.
+
+## Standardized archiving
+
+When you retire a yearly release, archive it explicitly with:
+
+```powershell
+./archive-resume.ps1 -Year 2023
+```
+
+That copies matching `2023*.pdf` files from `output_pdfs/` into `output_pdfs/old/2023/`.
+
+This keeps the archive layout predictable without relying on filename guessing.
 
 ## Rebuilding locally
 
