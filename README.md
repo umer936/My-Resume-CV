@@ -13,3 +13,13 @@ Generated PDFs:
 - `Resume.pdf` is just a convenience symlink; the canonical generated file lives in `output_pdfs/`.
 - Git LFS is not necessary for the current layout. This repo only keeps a small number of PDF artifacts, so regular Git is simpler and works fine.
 - If the repo ever grows to include many large binary revisions, then Git LFS would be worth reconsidering.
+
+## Rebuilding locally
+
+If you want to regenerate the resume, compile `2023_Resume.tex` with XeLaTeX. A common workflow is:
+
+```bash
+latexmk -xelatex 2023_Resume.tex
+```
+
+If you prefer not to use `latexmk`, run `xelatex` directly a couple of times until the references settle.
