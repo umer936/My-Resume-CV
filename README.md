@@ -12,7 +12,7 @@ Generated PDFs:
 - `Resume.pdf` is just a convenience symlink; the canonical archived 2023 PDF lives in `output_pdfs/old/2023/`.
 - Git LFS is not necessary for the current layout. This repo only keeps a small number of PDF artifacts, so regular Git is simpler and works fine.
 - If the repo ever grows to include many large binary revisions, then Git LFS would be worth reconsidering.
-- All organization is handled locally. Use the helper script below when you want to archive a retired release into `output_pdfs/old/<year>/`.
+- All organization is handled locally. Use the helper script below when you want to archive a retired release into `output_pdfs/old/<year>/` (and into a month folder under that year when the history shows multiple 2017-era releases).
 - I would **not** auto-move PDFs into `output_pdfs/old/` based on filename guessing alone. That kind of archival is better done explicitly when you publish a new annual version, because guessing can misfile things.
 
 ## Standardized archiving
@@ -26,6 +26,10 @@ When you retire a yearly release, archive it explicitly with:
 That moves matching `2023*.pdf` files from `output_pdfs/` into `output_pdfs/old/2023/`.
 
 This keeps the archive layout predictable without relying on filename guessing.
+
+For the historical 2017 archive, the PDFs are split by month under `output_pdfs/old/2017/` based on the commit history:
+- `output_pdfs/old/2017/09/`
+- `output_pdfs/old/2017/11/`
 
 ## Rebuilding locally
 
