@@ -32,8 +32,8 @@ if ($PSCmdlet.ShouldProcess($archiveDir, "Create archive folder")) {
 
 foreach ($file in $filesToArchive) {
     $destination = Join-Path $archiveDir $file.Name
-    if ($PSCmdlet.ShouldProcess($destination, "Copy $($file.FullName)")) {
-        Copy-Item -LiteralPath $file.FullName -Destination $destination -Force
-        Write-Host "Archived $($file.Name) -> $destination"
+    if ($PSCmdlet.ShouldProcess($destination, "Move $($file.FullName)")) {
+        Move-Item -LiteralPath $file.FullName -Destination $destination -Force
+        Write-Host "Moved $($file.Name) -> $destination"
     }
 }
